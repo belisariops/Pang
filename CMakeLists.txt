@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.5)
+project(Patterns)
+
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+set(SOURCE_FILES main.cpp Ball.cpp Ball.h LargeBall.cpp LargeBall.h MediumBall.cpp MediumBall.h State.cpp State.h RedBallModel.cpp RedBallModel.h LTexture.cpp LTexture.h View.cpp View.h Window.cpp Window.h  Model.h SmallBall.cpp SmallBall.h BackGround.cpp BackGround.h GameDriver.cpp GameDriver.h GameObject.h Collider.cpp Collider.h Point.cpp Point.h Segment.cpp Segment.h Vector.cpp Vector.h)
+find_package(SDL2)
+
+add_executable(Patterns ${SOURCE_FILES})

@@ -1,0 +1,1 @@
+g++ main.cpp Window.cpp Ball.cpp State.cpp LargeBall.cpp RedBallModel.cpp LTexture.cpp MediumBall.cpp SmallBall.cpp BackGround.cpp GameDriver.cpp Segment.cpp Point.cpp -w -lSDL2 -lSDL2_image -o a
