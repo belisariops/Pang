@@ -6,9 +6,11 @@
 #include <SDL2/SDL.h>
 #include "Window.h"
 
-Collider ::Collider(vector<Segment*> segments) {
-    this->segments = segments;
+Collider:: Collider(){
+
 }
+
+
 
 Collider ::~Collider() {
 
@@ -38,3 +40,4 @@ bool Collider ::isColliding(Collider *other) {
     return false;
 
 }
+

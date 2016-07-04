@@ -4,6 +4,7 @@
 
 #include "MediumBall.h"
 #include "Window.h"
+#include "BallCollider.h"
 
 MediumBall :: MediumBall (Model* model) {
     this->model = model;
@@ -13,7 +14,8 @@ MediumBall :: MediumBall (Model* model) {
     ballViewport.y=0;
     ballViewport.w=60;
     ballViewport.h=60;
-    //this->xSpeed =-0.02;
+    this->xSpeed =-0.02;
+    this->ySpeed = 0.015;
 
 
 }
@@ -31,6 +33,6 @@ void MediumBall::draw() {
     segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+60)));
     segments.push_back(new Segment( new Point(xPosition+60,yPosition),new Point(xPosition+60,yPosition+60)));
     segments.push_back(new Segment( new Point(xPosition,yPosition+60),new Point(xPosition+60,yPosition+60)));
-    this->collider = new Collider(segments);
+    this->collider = new BallCollider(segments);
     collider->draw();
 }

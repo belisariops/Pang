@@ -13,8 +13,11 @@ public:
     ~State();
     void tick();
     void setPosition(int x, int y);
+    void setSpeed(double x, double y);
     virtual void draw() =0;
     Collider* getCollider();
+    double getXSpeed();
+    double getYSpeed();
 
 protected:
     double xPosition;

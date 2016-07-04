@@ -7,7 +7,8 @@
 
 
 #include "State.h"
-#include "RedBallModel.h"
+#include "SDL2/SDL.h"
+#include "Model.h"
 
 class LargeBall : public State {
 public:

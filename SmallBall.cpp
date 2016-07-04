@@ -4,6 +4,7 @@
 
 #include "SmallBall.h"
 #include "Window.h"
+#include "BallCollider.h"
 
 SmallBall :: SmallBall (Model* model) {
     this->model = model;
@@ -14,7 +15,7 @@ SmallBall :: SmallBall (Model* model) {
     segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+25)));
     segments.push_back(new Segment( new Point(xPosition+25,yPosition),new Point(xPosition+25,yPosition+25)));
     segments.push_back(new Segment( new Point(xPosition,yPosition+25),new Point(xPosition+25,yPosition+25)));
-    this->collider = new Collider(segments);
+    this->collider = new BallCollider(segments);
 }
 
 SmallBall ::~SmallBall() {

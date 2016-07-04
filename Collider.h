@@ -7,16 +7,18 @@
 
 #include <vector>
 #include "Segment.h"
+#include "Ball.h"
 
 using namespace std;
 
 class Collider {
 public:
-    Collider(vector<Segment*> segments);
+    Collider();
     ~Collider();
     void detectCollision(Collider* other);
     void draw();
     bool isColliding(Collider* other);
+    virtual void collide(Ball *ball)=0;
 protected:
     vector<Segment*> segments;
 

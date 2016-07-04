@@ -5,9 +5,12 @@
 #ifndef PATTERNS_BALL_H
 #define PATTERNS_BALL_H
 
-#include "State.h"
-#include "RedBallModel.h"
+
+
 #include "GameObject.h"
+class Model;
+class Ball;
+class State;
 
 class Ball : public GameObject {
 public:
@@ -18,7 +21,12 @@ public:
     void draw();
     void setPosition(int xPosition,int yPosition);
     bool detectCollision(GameObject* object);
-    //bool collideWithBall(Ball* ball);
+    bool collideWithBall(Ball* ball);
+    bool collideWithBorders(BackGround* backGround);
+    void reflect();
+    State* getState();
+    void hitGround();
+    void hitWall();
 protected:
     State* state;
     int xPosition;

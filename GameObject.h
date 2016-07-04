@@ -6,7 +6,10 @@
 #define PATTERNS_GAMEOBJECT_H
 
 
-#include "State.h"
+class State;
+class BackGround;
+
+class Ball;
 
 class GameObject {
 public:
@@ -14,8 +17,10 @@ public:
     virtual void draw()=0;
     virtual void setState(State* state)=0;
     virtual void setPosition(int x,int y)=0;
+    virtual bool collideWithBall(Ball* ball)=0;
+    virtual bool collideWithBorders(BackGround* backGround)=0;
     virtual bool detectCollision(GameObject* object)=0;
-
+    virtual void reflect()=0;
 };
 
 

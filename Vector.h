@@ -1,24 +1,15 @@
 //
-// Created by belisariops on 6/25/16.
+// Created by belisariops on 22-03-16.
 //
 
-#ifndef PATTERNS_VECTOR_H
-#define PATTERNS_VECTOR_H
-
+#ifndef POINT_VECTOR_H
+#define POINT_VECTOR_H
 #include "Point.h"
 
-class Vector {
-public:
-    Vector(Point* p);
-    Vector();
-    ~Vector();
-    double norm();
-    Vector* *operator+(Vector* vec);
-    double operator*(Vector* vec);
-    Vector* operator^(Vector* vec);
 
-protected:
-    Point* point;
+class Vector {
+
 };
 
-#endif //PATTERNS_VECTOR_H
+
+#endif //POINT_VECTOR_H

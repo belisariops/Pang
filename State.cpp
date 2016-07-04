@@ -15,6 +15,7 @@ State ::~State() {
 
 void State::tick() {
     this->xPosition += xSpeed;
+    this->yPosition += ySpeed;
 }
 
 void State ::setPosition(int x, int y) {
@@ -24,4 +25,17 @@ void State ::setPosition(int x, int y) {
 
 Collider* State::getCollider() {
     return this->collider;
+}
+
+void State ::setSpeed(double x, double y) {
+    this->xSpeed = x;
+    this->ySpeed = y;
+}
+
+double State ::getXSpeed() {
+    return this->xSpeed;
+}
+
+double State ::getYSpeed() {
+    return this->ySpeed;
 }

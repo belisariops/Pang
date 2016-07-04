@@ -5,6 +5,7 @@
 #include "LargeBall.h"
 #include "Window.h"
 #include <vector>
+#include "BallCollider.h"
 
 LargeBall :: LargeBall (Model* model) {
     this->model = model;
@@ -14,7 +15,8 @@ LargeBall :: LargeBall (Model* model) {
     ballViewport.y=0;
     ballViewport.w=100;
     ballViewport.h=100;
-    //this->xSpeed =0.02;
+    this->xSpeed =0.02;
+    this->ySpeed = 0.015;
     }
 
 LargeBall ::~LargeBall() {
@@ -30,6 +32,6 @@ void LargeBall::draw() {
     segments.push_back(new Segment( new Point(xPosition+100,yPosition),new Point(xPosition+100,yPosition+100)));
     segments.push_back(new Segment( new Point(xPosition,yPosition+100),new Point(xPosition+100,yPosition+100)));
 
-    this->collider = new Collider(segments);
+    this->collider = new BallCollider(segments);
     this->collider->draw();
 }
