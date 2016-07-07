@@ -23,7 +23,7 @@ void State ::setPosition(int x, int y) {
     this->yPosition = y;
 }
 
-Collider* State::getCollider() {
+vector<Collider*> State::getCollider() {
     return this->collider;
 }
 

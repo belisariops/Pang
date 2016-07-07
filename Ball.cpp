@@ -36,12 +36,20 @@ void Ball ::setPosition(int xPosition, int yPosition) {
 
 
 bool Ball ::collideWithBall(Ball *ball) {
-    if (this->state->getCollider()->isColliding(ball->state->getCollider())) {
-        this->reflect();
-        ball->reflect();
-        return true;
+    vector<Collider*> colliders1 = this->getState()->getCollider();
+    vector<Collider*> colliders2 = ball->getState()->getCollider();
+    for (auto col1 :colliders1){
+        for (auto col2 : colliders2){
+            if (col1->isColliding(col2)){
+                col1->collide(ball);
+                col2->collide(this);
+                printf("aaaa\n");
+                return true;
+            }
+        }
     }
     return false;
+
 }
 
 
@@ -62,7 +70,6 @@ State* Ball ::getState() {
 }
 
 void Ball::hitGround() {
-    printf("golpeando suelo o techo");
     this->state->setSpeed(state->getXSpeed(),-state->getYSpeed());
 }
 

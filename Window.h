@@ -16,10 +16,13 @@ public:
     static Window* getInstance();
     SDL_Renderer* getRenderer();
     void update();
+    int getScreenTicks();
 private:
     bool quitState;
     int SCREEN_HEIGHT;
     int SCREEN_WIDTH;
+    int SCREEN_FPS;
+    int SCREEN_TICK_PER_FRAME;
     //The window we'll be rendering to
     SDL_Window* gWindow = NULL;
 

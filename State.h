@@ -15,7 +15,7 @@ public:
     void setPosition(int x, int y);
     void setSpeed(double x, double y);
     virtual void draw() =0;
-    Collider* getCollider();
+    vector<Collider*> getCollider();
     double getXSpeed();
     double getYSpeed();
 
@@ -24,7 +24,7 @@ protected:
     double yPosition;
     double xSpeed;
     double ySpeed;
-    Collider* collider;
+    vector<Collider*> collider;
 
 
 };

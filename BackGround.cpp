@@ -74,9 +74,11 @@ bool BackGround ::detectCollision(GameObject *object) {
 
 bool BackGround ::collideWithBall(Ball *ball) {
     for (auto border: borders){
-        if (border->isColliding(ball->getState()->getCollider())){
-            border->collide(ball);
-            return true;
+        for (auto line : ball->getState()->getCollider()){
+            if (border->isColliding(line)){
+                border->collide(ball);
+                return true;
+            }
         }
     }
     return false;

@@ -12,6 +12,8 @@ Window* Window::window=NULL;
 Window :: Window(int width, int height) {
     SCREEN_WIDTH=width;
     SCREEN_HEIGHT=height;
+    SCREEN_FPS = 60;
+    SCREEN_TICK_PER_FRAME = 1000/SCREEN_FPS;
     quitState =false;
     init();
 }
@@ -96,4 +98,8 @@ void Window :: update() {
 
 SDL_Renderer * Window::getRenderer() {
     return this->gRenderer;
+}
+
+int Window ::getScreenTicks() {
+    return this->SCREEN_TICK_PER_FRAME;
 }
