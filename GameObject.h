@@ -17,9 +17,9 @@ public:
     virtual void draw()=0;
     virtual void setState(State* state)=0;
     virtual void setPosition(int x,int y)=0;
-    virtual bool collideWithBall(Ball* ball)=0;
-    virtual bool collideWithBorders(BackGround* backGround)=0;
-    virtual bool detectCollision(GameObject* object)=0;
+    virtual void collideWithBall(Ball* ball)=0;
+    virtual void collideWithBorders(BackGround* backGround)=0;
+    virtual void detectCollision(GameObject* object)=0;
     virtual void reflect()=0;
 };
 

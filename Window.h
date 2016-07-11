@@ -6,6 +6,7 @@
 #define PATTERNS_WINDOW_H
 
 #include <SDL2/SDL.h>
+#include "Timer.h"
 
 class Window {
     static Window* window ;

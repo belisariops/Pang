@@ -20,9 +20,9 @@ public:
     void setState(State* state);
     void draw();
     void setPosition(int xPosition,int yPosition);
-    bool detectCollision(GameObject* object);
-    bool collideWithBall(Ball* ball);
-    bool collideWithBorders(BackGround* backGround);
+    void detectCollision(GameObject* object);
+    void collideWithBall(Ball* ball);
+    void collideWithBorders(BackGround* backGround);
     void reflect();
     State* getState();
     void hitGround();
@@ -31,6 +31,8 @@ protected:
     State* state;
     int xPosition;
     int yPosition;
+    void switchVelocity(Ball *ball);
+
 
 };
 

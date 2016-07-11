@@ -23,9 +23,9 @@ public:
     void tick();
     void setState(State* state);
     void setPosition(int x,int y);
-    bool detectCollision(GameObject* object);
-    bool collideWithBall(Ball* ball);
-    bool collideWithBorders(BackGround* backGround);
+    void detectCollision(GameObject* object);
+    void collideWithBall(Ball* ball);
+    void collideWithBorders(BackGround* backGround);
     void reflect();
     vector<Collider*> getBorders();
 private:
