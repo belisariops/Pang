@@ -3,10 +3,10 @@
 //
 
 #include "State.h"
+#include "Window.h"
 
 
 State ::State() {
-
 }
 
 State ::~State() {
@@ -14,8 +14,11 @@ State ::~State() {
 }
 
 void State::tick() {
-    this->xPosition += xSpeed;
-    this->yPosition += ySpeed;
+    double t = ((double)Window::getInstance()->getScreenTicks())/1000;
+    this->xPosition += (velocity->getXSpeed()) * t;
+    this->velocity->setYVelocity(this->velocity->getYSpeed() - 200*t);
+    this->yPosition +=  -velocity->getYSpeed()*t  +0.5*(200)*t*t;
+
 }
 
 void State ::setPosition(int x, int y) {
@@ -28,14 +31,22 @@ Collider* State::getCollider() {
 }
 
 void State ::setSpeed(double x, double y) {
-    this->xSpeed = x;
-    this->ySpeed = y;
+    this->velocity->setSpeed(x,y);
+
 }
 
 double State ::getXSpeed() {
-    return this->xSpeed;
+    return velocity->getXSpeed();
 }
 
 double State ::getYSpeed() {
-    return this->ySpeed;
+    return velocity->getYSpeed();
+}
+
+Velocity2D* State ::getVelocity() {
+    return this->velocity;
+}
+
+void State ::setVelocity(double a) {
+    this->velocity->setYVelocity(a);
 }

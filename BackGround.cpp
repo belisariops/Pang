@@ -67,27 +67,26 @@ void BackGround ::setPosition(int x, int y) {
     //do nothing
 }
 
-bool BackGround ::detectCollision(GameObject *object) {
-    return object->collideWithBorders(this);
+void BackGround ::detectCollision(GameObject *object) {
+    object->collideWithBorders(this);
 }
 
 
-bool BackGround ::collideWithBall(Ball *ball) {
+void BackGround ::collideWithBall(Ball *ball) {
     for (auto border: borders){
         if (border->isColliding(ball->getState()->getCollider())){
             border->collide(ball);
-            return true;
+            return;
         }
     }
-    return false;
 }
 
 void BackGround ::reflect() {
     return;
 }
 
-bool BackGround::collideWithBorders(BackGround *backGround) {
-    return false;
+void BackGround::collideWithBorders(BackGround *backGround) {
+    return;
 }
 
 vector<Collider*> BackGround ::getBorders() {

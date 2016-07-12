@@ -6,6 +6,7 @@
 #define PATTERNS_STATE_H
 
 #include "Collider.h"
+#include "Velocity2D.h"
 
 class State {
 public:
@@ -18,13 +19,17 @@ public:
     Collider* getCollider();
     double getXSpeed();
     double getYSpeed();
+    Velocity2D* getVelocity();
+    double getSpeed();
+    void setVelocity(double a);
+    virtual void hitGround() = 0;
 
 protected:
     double xPosition;
     double yPosition;
-    double xSpeed;
-    double ySpeed;
+    Velocity2D* velocity;
     Collider* collider;
+    double v;
 
 
 };

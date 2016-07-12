@@ -35,26 +35,25 @@ void Ball ::setPosition(int xPosition, int yPosition) {
 }
 
 
-bool Ball ::collideWithBall(Ball *ball) {
-    if (this->state->getCollider()->isColliding(ball->state->getCollider())) {
-        this->reflect();
-        ball->reflect();
-        return true;
+void Ball ::collideWithBall(Ball *ball) {
+    if ( this->state->getCollider()->isColliding(ball->state->getCollider())){
+        this->switchVelocity(ball);
     }
-    return false;
+
+
 }
 
 
-bool Ball ::detectCollision(GameObject *object) {
-    return object->collideWithBall(this);
+void Ball ::detectCollision(GameObject *object) {
+    object->collideWithBall(this);
 }
 
-bool Ball ::collideWithBorders(BackGround *backGround) {
-   return backGround->collideWithBall(this);
+void Ball ::collideWithBorders(BackGround *backGround) {
+   backGround->collideWithBall(this);
 }
 
 void Ball :: reflect() {
-    this->state->setSpeed(-state->getXSpeed(),state->getYSpeed());
+    this->state->getVelocity()->reflect();
 }
 
 State* Ball ::getState() {
@@ -62,10 +61,18 @@ State* Ball ::getState() {
 }
 
 void Ball::hitGround() {
-    printf("golpeando suelo o techo");
-    this->state->setSpeed(state->getXSpeed(),-state->getYSpeed());
+    //this->state->getVelocity()->reflectY();
+    //this->state->setVelocity(220);
+    this->state->hitGround();
 }
 
 void Ball ::hitWall() {
-    this->state->setSpeed(-state->getXSpeed(),state->getYSpeed());
+    this->state->getVelocity()->reflectX();
+}
+
+void Ball ::switchVelocity(Ball *ball) {
+    int x = ball->getState()->getVelocity()->getXSpeed();
+    int y = ball->getState()->getVelocity()->getYSpeed();
+    ball->getState()->setSpeed(this->getState()->getXSpeed(),this->getState()->getYSpeed());
+    this->getState()->setSpeed(x,y);
 }

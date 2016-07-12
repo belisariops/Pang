@@ -9,6 +9,5 @@ GroundCollider::GroundCollider(Segment *segment) {
 }
 
 void GroundCollider ::collide(Ball*object) {
-    printf("aaaa");
     object->hitGround();
 }

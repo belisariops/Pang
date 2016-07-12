@@ -5,17 +5,16 @@
 #include "SmallBall.h"
 #include "Window.h"
 #include "BallCollider.h"
+#include "GroundCollider.h"
+#include "WallCollider.h"
+#include "BoxHorizontal.h"
+#include "BoxVertical.h"
 
 SmallBall :: SmallBall (Model* model) {
     this->model = model;
     xPosition = 300;
     yPosition = 135;
-    vector<Segment*> segments;
-    segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition+25,yPosition)));
-    segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+25)));
-    segments.push_back(new Segment( new Point(xPosition+25,yPosition),new Point(xPosition+25,yPosition+25)));
-    segments.push_back(new Segment( new Point(xPosition,yPosition+25),new Point(xPosition+25,yPosition+25)));
-    this->collider = new BallCollider(segments);
+    this->velocity = new Velocity2D(40,20);
 }
 
 SmallBall ::~SmallBall() {
@@ -30,6 +29,20 @@ void SmallBall::draw() {
     ballViewport.h=25;
     Window* window = Window::getInstance();
     SDL_Renderer* render= window->getRenderer();
-    this->model->getTexture()->render(300,135,model->getClipping(),ballViewport,render);
-    collider->draw();
+    this->model->getTexture()->render(xPosition,yPosition,model->getClipping(),ballViewport,render);
+    Segment* top = new Segment( new Point(xPosition,yPosition),new Point(xPosition+25,yPosition));
+    Segment* left =new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+25));
+    Segment* right  = new Segment( new Point(xPosition+25,yPosition),new Point(xPosition+25,yPosition+25));
+    Segment* bottom =new Segment( new Point(xPosition,yPosition+25),new Point(xPosition+25,yPosition+25));
+    vector<Segment*> segments;
+    segments.push_back(top);
+    segments.push_back(left);
+    segments.push_back(right);
+    segments.push_back(bottom);
+    this->collider = new BallCollider(segments);
+    this->collider->draw();
+}
+
+void SmallBall ::hitGround() {
+    this->setVelocity(250);
 }

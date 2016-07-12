@@ -6,6 +6,10 @@
 #include "Window.h"
 #include <vector>
 #include "BallCollider.h"
+#include "GroundCollider.h"
+#include "WallCollider.h"
+#include "BoxHorizontal.h"
+#include "BoxVertical.h"
 
 LargeBall :: LargeBall (Model* model) {
     this->model = model;
@@ -15,8 +19,7 @@ LargeBall :: LargeBall (Model* model) {
     ballViewport.y=0;
     ballViewport.w=100;
     ballViewport.h=100;
-    this->xSpeed =0.02;
-    this->ySpeed = 0.015;
+    this->velocity = new Velocity2D(50,0);
     }
 
 LargeBall ::~LargeBall() {
@@ -26,12 +29,19 @@ void LargeBall::draw() {
     Window* window = Window::getInstance();
     SDL_Renderer* render= window->getRenderer();
     this->model->getTexture()->render(xPosition,yPosition,model->getClipping(),ballViewport,render);
+    Segment* top = new Segment( new Point(xPosition,yPosition),new Point(xPosition+100,yPosition));
+    Segment* left =new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+100));
+    Segment* right  = new Segment( new Point(xPosition+100,yPosition),new Point(xPosition+100,yPosition+100));
+    Segment* bottom =new Segment( new Point(xPosition,yPosition+100),new Point(xPosition+100,yPosition+100));
     vector<Segment*> segments;
-    segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition+100,yPosition)));
-    segments.push_back(new Segment( new Point(xPosition,yPosition),new Point(xPosition,yPosition+100)));
-    segments.push_back(new Segment( new Point(xPosition+100,yPosition),new Point(xPosition+100,yPosition+100)));
-    segments.push_back(new Segment( new Point(xPosition,yPosition+100),new Point(xPosition+100,yPosition+100)));
-
+    segments.push_back(top);
+    segments.push_back(left);
+    segments.push_back(right);
+    segments.push_back(bottom);
     this->collider = new BallCollider(segments);
     this->collider->draw();
+}
+
+void LargeBall::hitGround() {
+    this->setVelocity(360);
 }

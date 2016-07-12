@@ -15,6 +15,7 @@ public:
     LargeBall(Model* model);
     ~LargeBall();
     void draw();
+    void hitGround();
 private:
     SDL_Rect ballViewport;
     Model* model;
