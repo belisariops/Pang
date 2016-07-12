@@ -41,3 +41,7 @@ void LargeBall::draw() {
     this->collider = new BallCollider(segments);
     this->collider->draw();
 }
+
+void LargeBall::hitGround() {
+    this->setVelocity(360);
+}

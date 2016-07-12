@@ -7,7 +7,6 @@
 
 
 State ::State() {
-    this->v = 0;
 }
 
 State ::~State() {
@@ -17,8 +16,8 @@ State ::~State() {
 void State::tick() {
     double t = ((double)Window::getInstance()->getScreenTicks())/1000;
     this->xPosition += (velocity->getXSpeed()) * t;
-    this->v = v -100*t;
-    this->yPosition +=  -v*t  +0.5*(100)*t*t;
+    this->velocity->setYVelocity(this->velocity->getYSpeed() - 200*t);
+    this->yPosition +=  -velocity->getYSpeed()*t  +0.5*(200)*t*t;
 
 }
 
@@ -49,5 +48,5 @@ Velocity2D* State ::getVelocity() {
 }
 
 void State ::setVelocity(double a) {
-    this->v = a;
+    this->velocity->setYVelocity(a);
 }

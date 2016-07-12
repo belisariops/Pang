@@ -13,6 +13,7 @@ public:
     MediumBall(Model* model);
     ~MediumBall();
     void draw();
+    void hitGround();
 private:
     SDL_Rect ballViewport;
     Model* model;

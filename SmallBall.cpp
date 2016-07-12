@@ -14,7 +14,7 @@ SmallBall :: SmallBall (Model* model) {
     this->model = model;
     xPosition = 300;
     yPosition = 135;
-    this->velocity = new Velocity2D(1,2);
+    this->velocity = new Velocity2D(40,20);
 }
 
 SmallBall ::~SmallBall() {
@@ -41,4 +41,8 @@ void SmallBall::draw() {
     segments.push_back(bottom);
     this->collider = new BallCollider(segments);
     this->collider->draw();
+}
+
+void SmallBall ::hitGround() {
+    this->setVelocity(250);
 }

@@ -24,9 +24,9 @@ GameDriver::GameDriver() {
     ball2->setPosition(400,100);
     ball2->setState(new MediumBall(model));
     gameObjects.push_back(ball2);
-   //GameObject* ball3 = new Ball(model);
-    //ball3->setState(new SmallBall(model));
-    //gameObjects.push_back(ball3);
+   GameObject* ball3 = new Ball(model);
+    ball3->setState(new SmallBall(model));
+    gameObjects.push_back(ball3);
     SDL_SetRenderDrawColor(game->getRenderer(), 0, 255, 0, 255);
 }
 

@@ -61,8 +61,9 @@ State* Ball ::getState() {
 }
 
 void Ball::hitGround() {
-    this->state->getVelocity()->reflectY();
-    this->state->setVelocity(220);
+    //this->state->getVelocity()->reflectY();
+    //this->state->setVelocity(220);
+    this->state->hitGround();
 }
 
 void Ball ::hitWall() {

@@ -12,7 +12,7 @@
 
 MediumBall :: MediumBall (Model* model) {
     this->model = model;
-    xPosition = 300;
+    xPosition = 500;
     yPosition = 100;
     ballViewport.x=0;
     ballViewport.y=0;
@@ -42,4 +42,8 @@ void MediumBall::draw() {
     segments.push_back(bottom);
     this->collider = new BallCollider(segments);
     this->collider->draw();
+}
+
+void MediumBall ::hitGround() {
+    this->setVelocity(320);
 }

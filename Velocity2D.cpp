@@ -36,3 +36,11 @@ int Velocity2D ::getXSpeed() {
 int Velocity2D ::getYSpeed() {
     return this->ySpeed;
 }
+
+void Velocity2D ::setXVelocity(double x) {
+    this->xSpeed = x;
+}
+
+void Velocity2D ::setYVelocity(double y) {
+    this->ySpeed = y;
+}

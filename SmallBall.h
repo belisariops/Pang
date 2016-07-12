@@ -14,6 +14,7 @@ public:
     SmallBall(Model* model);
     ~SmallBall();
     void draw();
+    void hitGround();
 private:
     Model* model;
 

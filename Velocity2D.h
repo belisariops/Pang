@@ -15,6 +15,8 @@ public:
     int getXSpeed();
     int getYSpeed();
     void setSpeed(double x, double y);
+    void setXVelocity(double  x);
+    void setYVelocity(double y);
 private:
     double xSpeed;
     double ySpeed;
