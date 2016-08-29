@@ -25,13 +25,19 @@ int main() {
             {
                 game->setQuitState(true);
             }
+
+            if ( e.type == SDL_KEYDOWN){
+                gameDriver->spawn();
+            }
+
+
         }
         float avgFPS = countedFrames / ( fpsTimer.getTicks() / 1000.f );
 
         //Set text to be rendered
 
         //cout << game->getScreenTicks()  << "\n";
-        //cout << avgFPS  << "\n";
+        cout << avgFPS  << "\n";
 
 
         gameDriver->notify();

@@ -55,19 +55,24 @@ SDL_Rect* BackGround ::getClipping() {
 this->clippingRect;
 }
 
-void BackGround::setState(State* state) {
-
-}
-
 void BackGround:: tick() {
     draw();
 }
 
-void BackGround ::setPosition(int x, int y) {
-    //do nothing
+void getPosition(int* x,int* y,int* w,int* h){
+    *x = 13;
+    *y = 14;
+    *w =612;
+    *h = 395;
 }
 
-void BackGround ::detectCollision(GameObject *object) {
+void BackGround ::getPrevPosition(int *x, int *y) {
+    *x = -1;
+    *y = 1;
+}
+
+
+void BackGround ::detectCollision(GameObject*object) {
     object->collideWithBorders(this);
 }
 
@@ -81,14 +86,11 @@ void BackGround ::collideWithBall(Ball *ball) {
     }
 }
 
-void BackGround ::reflect() {
-    return;
-}
-
-void BackGround::collideWithBorders(BackGround *backGround) {
-    return;
-}
 
 vector<Collider*> BackGround ::getBorders() {
     return this->borders;
+}
+
+void BackGround :: collideWithBorders(BackGround* backGround){
+
 }

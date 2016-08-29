@@ -21,13 +21,12 @@ public:
     SDL_Rect* getClipping();
     void draw();
     void tick();
-    void setState(State* state);
-    void setPosition(int x,int y);
     void detectCollision(GameObject* object);
     void collideWithBall(Ball* ball);
-    void collideWithBorders(BackGround* backGround);
-    void reflect();
     vector<Collider*> getBorders();
+    void collideWithBorders(BackGround* backGround);
+    void getPosition(int* xPos,int* yPos);
+    void getPrevPosition(int* x,int* y);
 private:
     LTexture* texture;
     SDL_Rect* clippingRect;

@@ -14,11 +14,14 @@ MediumBall :: MediumBall (Model* model) {
     this->model = model;
     xPosition = 300;
     yPosition = 100;
+    this->width = 60;
+    this->height = 60;
     ballViewport.x=0;
     ballViewport.y=0;
     ballViewport.w=60;
     ballViewport.h=60;
-    this->velocity = new Velocity2D(-50,0);
+    this->velocity = new Velocity2D(30,2);
+    this->dim = 30;
 
 
 }

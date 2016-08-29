@@ -15,45 +15,67 @@ class Model;
 
 GameDriver::GameDriver() {
     Window* game = Window::getInstance();
-    GameObject* backGround = new BackGround();
-    gameObjects.push_back(backGround);
-    RedBallModel* model = new RedBallModel();
-    GameObject* ball1 = new Ball(model);
+    backGround = new BackGround();
+    quadTree = new QuadTreeNode(0,0,640,425);
+    quadTree->subDivide();
+    std::cout << "Divide! \n";
+    quadTree->subDivide();
+    //quadTree->subDivide();
+    model = new RedBallModel();
+    Ball* ball1 = new Ball(model);
+    ball1->setState(new SmallBall(model));
+    //quadTree->addObject(ball1);
     gameObjects.push_back(ball1);
-    GameObject* ball2 = new Ball(model);
-    ball2->setPosition(400,100);
-    ball2->setState(new MediumBall(model));
+    Ball* ball2 = new Ball(model);
+    ball2->setState(new SmallBall(model));
+    //quadTree->addObject(ball2);
+    ball2->setPosition(550,100);
     gameObjects.push_back(ball2);
-   //GameObject* ball3 = new Ball(model);
-    //ball3->setState(new SmallBall(model));
-    //gameObjects.push_back(ball3);
-    SDL_SetRenderDrawColor(game->getRenderer(), 0, 255, 0, 255);
+    Ball* ball3 = new Ball(model);
+    ball3->setState(new SmallBall(model));
+    ball3->setPosition(100,100);
+    gameObjects.push_back(ball3);
 }
 
 GameDriver::~GameDriver() {
     for (auto object: gameObjects)
         delete object;
 
+
     gameObjects.clear();
 }
 
 void GameDriver::notify() {
-    for (auto object: gameObjects){
+    SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 0, 255, 0, 255);
+    backGround->tick();
+    /*for (auto object: gameObjects){
         object->tick();
-    }
+    }*/
+    quadTree->tick(gameObjects);
+
+
     //Por implementar
 
-    vector<GameObject*> aux = gameObjects;
-    while (!aux.empty()){
-        GameObject* auxObject = aux.back();
+    vector<Actor*> aux = gameObjects;
+
+    //Fuerza bruta
+        for (auto object1:aux){
+                object1->detectCollision(backGround);
+        }
         aux.pop_back();
 
-        for (auto object1:aux){
-                auxObject->detectCollision(object1);
-        }
+
+    SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 255, 0, 0, 255);
+    quadTree->draw();
 
 
-    }
 
 
+
+}
+
+void GameDriver ::spawn() {
+    Ball* ball = new Ball(model);
+    ball->setState(new SmallBall(model));
+    gameObjects.push_back(ball);
 }

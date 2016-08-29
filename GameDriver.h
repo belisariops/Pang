@@ -6,6 +6,9 @@
 #define PATTERNS_GAMEDRIVER_H
 
 #include "GameObject.h"
+#include "Actor.h"
+#include "QuadTreeNode.h"
+#include "RedBallModel.h"
 #include <vector>
 
 using namespace std;
@@ -15,8 +18,12 @@ public:
     GameDriver();
     ~GameDriver();
     void notify();
+    void spawn();
 private:
-    vector<GameObject*> gameObjects;
+    vector<Actor*> gameObjects;
+    BackGround* backGround;
+    QuadTreeNode* quadTree;
+    RedBallModel* model;
 
 };
 
