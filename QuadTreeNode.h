@@ -13,7 +13,7 @@
 class QuadTreeNode {
 public:
     QuadTreeNode(long topLeftX, long topLeftY,long width, long height);
-    ~QuadTreeNode();
+    virtual ~QuadTreeNode();
     long subDivide();
     void draw();
     void addObject(Actor* object);

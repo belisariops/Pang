@@ -37,7 +37,9 @@ int main() {
         //Set text to be rendered
 
         //cout << game->getScreenTicks()  << "\n";
-        cout << avgFPS  << "\n";
+        if (fpsTimer.getTicks() >10) {
+            //cout << avgFPS << "\n";
+        }
 
 
         gameDriver->notify();
@@ -52,6 +54,10 @@ int main() {
         }
         //cout<< capTimer.getTicks()<<endl;
         //cout<<fpsTimer.getTicks()<<"\n";
+        if (fpsTimer.getTicks() >1000.f){
+            fpsTimer.start();
+            countedFrames=0;
+        }
 
     }
     delete gameDriver;

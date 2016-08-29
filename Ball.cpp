@@ -39,10 +39,15 @@ void Ball ::setPosition(int xPosition, int yPosition) {
 void Ball ::collideWithBall(Ball *ball) {
     if ( this->state->getCollider()->isColliding(ball->state->getCollider())){
         this->switchVelocity(ball);
-        ball->tick();
-        this->tick();
-        ball->tick();
+        //ball->setPosition(ball->getXPosition()+(int)10*(ball->state->getXSpeed()/ball->state->getXSpeed()),ball->getYPosition()+(int)10*(ball->state->getYSpeed()/ball->state->getYSpeed()));
+        //ball->tick();
+        //this->tick();
+        //ball->getState()->tick();
+        //this->state->tick();
+        cout<<"Collision\n";
     }
+
+
 
 
 

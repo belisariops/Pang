@@ -23,6 +23,7 @@ public:
     Velocity2D* getVelocity();
     double getSpeed();
     void setVelocity(double a);
+    virtual void hitGround() = 0;
     void getPosition(int* x,int* y,int* w,int* h);
     void getPrevPosition(int* x,int* y);
 

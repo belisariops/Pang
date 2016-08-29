@@ -19,7 +19,7 @@ void State::tick() {
     double t = ((double)Window::getInstance()->getScreenTicks())/1000;
     this->xPosition += (velocity->getXSpeed()) * t;
     this->velocity->setYVelocity(this->velocity->getYSpeed() - 200*t);
-    this->yPosition +=  -velocity->getYSpeed()*t  +0.5*(200)*t*t;
+    this->yPosition +=  -velocity->getYSpeed()*t  +0.5*(400)*t*t;
 
 }
 

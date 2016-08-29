@@ -47,5 +47,5 @@ void SmallBall::draw() {
 }
 
 void SmallBall ::hitGround() {
-    this->setVelocity(250);
+    this->setVelocity(400);
 }

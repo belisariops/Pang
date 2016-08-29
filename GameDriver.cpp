@@ -18,8 +18,9 @@ GameDriver::GameDriver() {
     backGround = new BackGround();
     quadTree = new QuadTreeNode(0,0,640,425);
     quadTree->subDivide();
-    std::cout << "Divide! \n";
+    //std::cout << "Divide! \n";
     quadTree->subDivide();
+    //quadTree->subDivide();
     //quadTree->subDivide();
     model = new RedBallModel();
     Ball* ball1 = new Ball(model);

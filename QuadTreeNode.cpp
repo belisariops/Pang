@@ -140,11 +140,11 @@ void QuadTreeNode ::detectCollisions() {
 }
 
 void QuadTreeNode::tick(vector<Actor*> actors) {
+    this->detectCollisions();
     for (auto object: actors) {
         this->updateActor(object);
         object->tick();
     }
-    this->detectCollisions();
 }
 
 void QuadTreeNode ::removeActor(Actor *actor) {
