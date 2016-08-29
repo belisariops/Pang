@@ -14,7 +14,8 @@ SmallBall :: SmallBall (Model* model) {
     this->model = model;
     xPosition = 300;
     yPosition = 135;
-    this->velocity = new Velocity2D(40,20);
+    this->velocity = new Velocity2D(100,2);
+    this->dim = 13;
 }
 
 SmallBall ::~SmallBall() {
@@ -25,6 +26,8 @@ void SmallBall::draw() {
     SDL_Rect ballViewport;
     ballViewport.x=0;
     ballViewport.y=0;
+    this->width = 25;
+    this->height = 25;
     ballViewport.w=25;
     ballViewport.h=25;
     Window* window = Window::getInstance();

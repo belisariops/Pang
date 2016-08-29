@@ -37,7 +37,28 @@ bool Collider ::isColliding(Collider *other) {
         }
 
     }
+    /*
+    Point* a2;
+    Point* b2;
+    Point* c2;
+    Point* d2;
+    other->getPoints(&a2,&b2,&c2,&d2);
+     if (a->getX()> d2->getX() || d->getX() < a2->getX() || b->getY() <a2->getY() || b2->getY()<a->getY()){
+         return false;
+     }
+    else
+         return true;
+
+*/
     return false;
+
 
 }
 
+void Collider ::getPoints(Point **a, Point **b, Point **c, Point **d) {
+    *a = this->a;
+    *b = this->b;
+    *c = this->c;
+    *d = this->d;
+    return;
+}

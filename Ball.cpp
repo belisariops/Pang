@@ -4,6 +4,7 @@
 #include "Ball.h"
 #include "LargeBall.h"
 #include "BackGround.h"
+#include <math.h>
 
 Ball::Ball(Model* model) {
     state = new LargeBall(model);
@@ -38,13 +39,18 @@ void Ball ::setPosition(int xPosition, int yPosition) {
 void Ball ::collideWithBall(Ball *ball) {
     if ( this->state->getCollider()->isColliding(ball->state->getCollider())){
         this->switchVelocity(ball);
+        ball->tick();
+        this->tick();
+        ball->tick();
     }
+
+
 
 
 }
 
 
-void Ball ::detectCollision(GameObject *object) {
+void Ball ::detectCollision(GameObject*object) {
     object->collideWithBall(this);
 }
 
@@ -71,8 +77,33 @@ void Ball ::hitWall() {
 }
 
 void Ball ::switchVelocity(Ball *ball) {
-    int x = ball->getState()->getVelocity()->getXSpeed();
-    int y = ball->getState()->getVelocity()->getYSpeed();
+    float x = ball->getState()->getVelocity()->getXSpeed();
+    float y = ball->getState()->getVelocity()->getYSpeed();
     ball->getState()->setSpeed(this->getState()->getXSpeed(),this->getState()->getYSpeed());
     this->getState()->setSpeed(x,y);
 }
+
+int Ball ::getXPosition() {
+    return this->xPosition;
+}
+
+int Ball ::getYPosition() {
+    return this->yPosition;
+}
+
+double Ball ::getDistance(Actor *other) {
+    return sqrt(((this->xPosition - other->getXPosition())*(this->xPosition - other->getXPosition())) + ((this->yPosition - other->getYPosition())*(this->yPosition - other->getYPosition())));
+}
+
+void Ball::getPosition(int *x, int *y,int *w,int*h) {
+    state->getPosition(x,y,w,h);
+}
+
+void Ball ::getPrevPosition(int *x, int *y) {
+    this->state->getPrevPosition(x,y);
+}
+
+void Ball::detectCollisionAct(Actor *actor) {
+    actor->collideWithBall(this);
+}
+

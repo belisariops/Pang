@@ -19,8 +19,14 @@ public:
     void draw();
     bool isColliding(Collider* other);
     virtual void collide(Ball *ball)=0;
+    void getPoints(Point** a,Point** b,Point** c,Point** d);
 protected:
     vector<Segment*> segments;
+    Point* a;
+    Point* b;
+    Point* c;
+    Point* d;
+
 
 
 };

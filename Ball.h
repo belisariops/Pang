@@ -8,11 +8,13 @@
 
 
 #include "GameObject.h"
+#include "Actor.h"
+
 class Model;
 class Ball;
 class State;
 
-class Ball : public GameObject {
+class Ball : public GameObject, public Actor {
 public:
     Ball(Model* model);
     ~Ball();
@@ -27,12 +29,20 @@ public:
     State* getState();
     void hitGround();
     void hitWall();
+    int getXPosition();
+    int getYPosition();
+    double getDistance(Actor* other);
+    void getPosition(int* x,int* y,int* w,int* h);
+    void getPrevPosition(int* x,int* y);
+    void detectCollisionAct(Actor* actor);
+
 protected:
     State* state;
     int xPosition;
     int yPosition;
+    int xPrev;
+    int yPrev;
     void switchVelocity(Ball *ball);
-
 
 };
 

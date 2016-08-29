@@ -31,10 +31,17 @@ GameDriver::GameDriver() {
     //quadTree->addObject(ball2);
     ball2->setPosition(550,100);
     gameObjects.push_back(ball2);
+<<<<<<< HEAD
+   GameObject* ball3 = new Ball(model);
+    ball3->setState(new SmallBall(model));
+    gameObjects.push_back(ball3);
+    SDL_SetRenderDrawColor(game->getRenderer(), 0, 255, 0, 255);
+=======
     Ball* ball3 = new Ball(model);
     ball3->setState(new SmallBall(model));
     ball3->setPosition(100,100);
     gameObjects.push_back(ball3);
+>>>>>>> 4f4409fd157b7defc694e54b8718db4fa4314951
 }
 
 GameDriver::~GameDriver() {

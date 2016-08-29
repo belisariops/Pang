@@ -15,11 +15,14 @@ LargeBall :: LargeBall (Model* model) {
     this->model = model;
     xPosition = 100;
     yPosition = 100;
+    this->width = 100;
+    this->height= 100;
     ballViewport.x=0;
     ballViewport.y=0;
     ballViewport.w=100;
     ballViewport.h=100;
-    this->velocity = new Velocity2D(50,0);
+    this->velocity = new Velocity2D(-50,0);
+    this->dim = 50;
     }
 
 LargeBall ::~LargeBall() {
