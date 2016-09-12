@@ -20,6 +20,11 @@ QuadTreeNode ::QuadTreeNode(long topLeftX, long topLeftY, long width, long heigh
 }
 
 QuadTreeNode ::~QuadTreeNode() {
+    for (auto object: objects)
+        delete object;
+    objects.clear();
+    for (int i=0; i<4;i++)
+        free(subNodes[i]);
 
 }
 

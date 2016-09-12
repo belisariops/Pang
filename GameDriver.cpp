@@ -39,8 +39,9 @@ GameDriver::GameDriver() {
 }
 
 GameDriver::~GameDriver() {
-    for (auto object: gameObjects)
-        delete object;
+    delete quadTree;
+    //for (auto object: gameObjects)
+      //delete object;
 
 
     gameObjects.clear();
