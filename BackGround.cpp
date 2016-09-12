@@ -59,16 +59,11 @@ void BackGround:: tick() {
     draw();
 }
 
-void getPosition(int* x,int* y,int* w,int* h){
-    *x = 13;
-    *y = 14;
-    *w =612;
-    *h = 395;
-}
+
 
 void BackGround ::getPrevPosition(int *x, int *y) {
-    *x = -1;
-    *y = 1;
+    *x = 13;
+    *y = 14;
 }
 
 
@@ -93,4 +88,28 @@ vector<Collider*> BackGround ::getBorders() {
 
 void BackGround :: collideWithBorders(BackGround* backGround){
 
+}
+
+void BackGround::reflect() {
+
+}
+
+int BackGround::getXPosition() {
+    return -1;
+}
+
+int BackGround::getYPosition() {
+    return -1;
+}
+
+void BackGround::getPosition(int *x, int *y, int *w, int *h) {
+    *x=13;
+    *y=14;
+    *w=612;
+    *h=395;
+
+}
+
+void BackGround::detectCollisionAct(Actor *object) {
+    object->collideWithBorders(this);
 }

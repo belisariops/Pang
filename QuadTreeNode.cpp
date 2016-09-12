@@ -116,7 +116,6 @@ void QuadTreeNode::getSegments(Segment **t, Segment **b, Segment **l, Segment **
 
 void QuadTreeNode ::detectCollisions() {
     if (subNodes == NULL) {
-            //De alguna manera en los nodos que deberia haber 1 objeto hay 2!
             if (objects.size()==1)
                 return;
             vector<Actor *> aux = objects;
@@ -130,6 +129,7 @@ void QuadTreeNode ::detectCollisions() {
 
 
         }
+
     }
 
     else {
@@ -140,11 +140,13 @@ void QuadTreeNode ::detectCollisions() {
 }
 
 void QuadTreeNode::tick(vector<Actor*> actors) {
-    this->detectCollisions();
     for (auto object: actors) {
         this->updateActor(object);
         object->tick();
+        SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 0, 255, 0, 255);
+
     }
+    this->detectCollisions();
 }
 
 void QuadTreeNode ::removeActor(Actor *actor) {
@@ -153,6 +155,7 @@ void QuadTreeNode ::removeActor(Actor *actor) {
         for (int k=0; k<objects.size();k++) {
             if (objects[k] == actor)
                 objects.erase(objects.begin()+k);
+
         }
     }
     else {

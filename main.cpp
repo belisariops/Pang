@@ -38,7 +38,7 @@ int main() {
 
         //cout << game->getScreenTicks()  << "\n";
         if (fpsTimer.getTicks() >10) {
-            //cout << avgFPS << "\n";
+            cout << avgFPS << "\n";
         }
 
 

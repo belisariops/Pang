@@ -4,6 +4,7 @@
 #include "Ball.h"
 #include "LargeBall.h"
 #include "BackGround.h"
+#include "Window.h"
 #include <math.h>
 
 Ball::Ball(Model* model) {
@@ -38,13 +39,16 @@ void Ball ::setPosition(int xPosition, int yPosition) {
 
 void Ball ::collideWithBall(Ball *ball) {
     if ( this->state->getCollider()->isColliding(ball->state->getCollider())){
-        this->switchVelocity(ball);
+        //this->switchVelocity(ball);
         //ball->setPosition(ball->getXPosition()+(int)10*(ball->state->getXSpeed()/ball->state->getXSpeed()),ball->getYPosition()+(int)10*(ball->state->getYSpeed()/ball->state->getYSpeed()));
         //ball->tick();
         //this->tick();
         //ball->getState()->tick();
         //this->state->tick();
-        cout<<"Collision\n";
+        SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 255, 0, 0, 255);
+        ball->state->getCollider()->draw();
+        state->getCollider()->draw();
+
     }
 
 
@@ -61,6 +65,7 @@ void Ball ::detectCollision(GameObject*object) {
 
 void Ball ::collideWithBorders(BackGround *backGround) {
    backGround->collideWithBall(this);
+    printf("aaa\n");
 }
 
 void Ball :: reflect() {

@@ -13,7 +13,7 @@
 #include <vector>
 #include "Collider.h"
 
-class BackGround: public GameObject {
+class BackGround: public GameObject, public Actor {
 public:
     BackGround();
     ~BackGround();
@@ -25,8 +25,12 @@ public:
     void collideWithBall(Ball* ball);
     vector<Collider*> getBorders();
     void collideWithBorders(BackGround* backGround);
-    void getPosition(int* xPos,int* yPos);
     void getPrevPosition(int* x,int* y);
+    void reflect();
+    int getXPosition();
+    int getYPosition();
+    void getPosition(int *x,int* y,int* w,int* h);
+    void detectCollisionAct(Actor* object);
 private:
     LTexture* texture;
     SDL_Rect* clippingRect;

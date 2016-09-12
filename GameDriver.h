@@ -23,7 +23,7 @@ private:
     vector<Actor*> gameObjects;
     BackGround* backGround;
     QuadTreeNode* quadTree;
-    RedBallModel* model;
+    Model* model;
 
 };
 

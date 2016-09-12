@@ -60,13 +60,13 @@ void GameDriver::notify() {
     vector<Actor*> aux = gameObjects;
 
     //Fuerza bruta
-        for (auto object1:aux){
+       for (auto object1:aux){
                 object1->detectCollision(backGround);
         }
         aux.pop_back();
 
 
-    SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 255, 0, 0, 255);
+    SDL_SetRenderDrawColor(Window::getInstance()->getRenderer(), 255, 255, 255, 255);
     quadTree->draw();
 
 
