@@ -24,6 +24,8 @@ public:
     void updateActor(Actor* actor);
 
 private:
+
+    void deleteVector();
     long topLeftX;
     long topLeftY;
     long width;
@@ -34,7 +36,6 @@ private:
     Segment* bottom;
     Segment* left;
     Segment* right;
-
     QuadTreeNode** subNodes;
     std::vector<Actor*> objects;
 protected:

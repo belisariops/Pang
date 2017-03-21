@@ -43,10 +43,10 @@ RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/belisariops/WorkSpace/C++/SDL2/Pang
+CMAKE_SOURCE_DIR = /home/belisariops/Workspace/C++/Pang
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug
+CMAKE_BINARY_DIR = /home/belisariops/Workspace/C++/Pang/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Patterns.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Patterns.dir/flags.make
 
 CMakeFiles/Patterns.dir/main.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Patterns.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/main.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Patterns.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/main.cpp.o -c /home/belisariops/Workspace/C++/Pang/main.cpp
 
 CMakeFiles/Patterns.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/main.cpp > CMakeFiles/Patterns.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/main.cpp > CMakeFiles/Patterns.dir/main.cpp.i
 
 CMakeFiles/Patterns.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/main.cpp -o CMakeFiles/Patterns.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/main.cpp -o CMakeFiles/Patterns.dir/main.cpp.s
 
 CMakeFiles/Patterns.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Patterns.dir/main.cpp.o.provides.build: CMakeFiles/Patterns.dir/main.
 
 CMakeFiles/Patterns.dir/Ball.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Ball.cpp.o: ../Ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Patterns.dir/Ball.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Ball.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Patterns.dir/Ball.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Ball.cpp.o -c /home/belisariops/Workspace/C++/Pang/Ball.cpp
 
 CMakeFiles/Patterns.dir/Ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Ball.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Ball.cpp > CMakeFiles/Patterns.dir/Ball.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Ball.cpp > CMakeFiles/Patterns.dir/Ball.cpp.i
 
 CMakeFiles/Patterns.dir/Ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Ball.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Ball.cpp -o CMakeFiles/Patterns.dir/Ball.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Ball.cpp -o CMakeFiles/Patterns.dir/Ball.cpp.s
 
 CMakeFiles/Patterns.dir/Ball.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Patterns.dir/Ball.cpp.o.provides.build: CMakeFiles/Patterns.dir/Ball.
 
 CMakeFiles/Patterns.dir/LargeBall.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/LargeBall.cpp.o: ../LargeBall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Patterns.dir/LargeBall.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/LargeBall.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/LargeBall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Patterns.dir/LargeBall.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/LargeBall.cpp.o -c /home/belisariops/Workspace/C++/Pang/LargeBall.cpp
 
 CMakeFiles/Patterns.dir/LargeBall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/LargeBall.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/LargeBall.cpp > CMakeFiles/Patterns.dir/LargeBall.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/LargeBall.cpp > CMakeFiles/Patterns.dir/LargeBall.cpp.i
 
 CMakeFiles/Patterns.dir/LargeBall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/LargeBall.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/LargeBall.cpp -o CMakeFiles/Patterns.dir/LargeBall.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/LargeBall.cpp -o CMakeFiles/Patterns.dir/LargeBall.cpp.s
 
 CMakeFiles/Patterns.dir/LargeBall.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Patterns.dir/LargeBall.cpp.o.provides.build: CMakeFiles/Patterns.dir/
 
 CMakeFiles/Patterns.dir/MediumBall.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/MediumBall.cpp.o: ../MediumBall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Patterns.dir/MediumBall.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/MediumBall.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/MediumBall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Patterns.dir/MediumBall.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/MediumBall.cpp.o -c /home/belisariops/Workspace/C++/Pang/MediumBall.cpp
 
 CMakeFiles/Patterns.dir/MediumBall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/MediumBall.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/MediumBall.cpp > CMakeFiles/Patterns.dir/MediumBall.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/MediumBall.cpp > CMakeFiles/Patterns.dir/MediumBall.cpp.i
 
 CMakeFiles/Patterns.dir/MediumBall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/MediumBall.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/MediumBall.cpp -o CMakeFiles/Patterns.dir/MediumBall.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/MediumBall.cpp -o CMakeFiles/Patterns.dir/MediumBall.cpp.s
 
 CMakeFiles/Patterns.dir/MediumBall.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Patterns.dir/MediumBall.cpp.o.provides.build: CMakeFiles/Patterns.dir
 
 CMakeFiles/Patterns.dir/State.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/State.cpp.o: ../State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Patterns.dir/State.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/State.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Patterns.dir/State.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/State.cpp.o -c /home/belisariops/Workspace/C++/Pang/State.cpp
 
 CMakeFiles/Patterns.dir/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/State.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/State.cpp > CMakeFiles/Patterns.dir/State.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/State.cpp > CMakeFiles/Patterns.dir/State.cpp.i
 
 CMakeFiles/Patterns.dir/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/State.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/State.cpp -o CMakeFiles/Patterns.dir/State.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/State.cpp -o CMakeFiles/Patterns.dir/State.cpp.s
 
 CMakeFiles/Patterns.dir/State.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Patterns.dir/State.cpp.o.provides.build: CMakeFiles/Patterns.dir/Stat
 
 CMakeFiles/Patterns.dir/Timer.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Timer.cpp.o: ../Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Patterns.dir/Timer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Timer.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Patterns.dir/Timer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Timer.cpp.o -c /home/belisariops/Workspace/C++/Pang/Timer.cpp
 
 CMakeFiles/Patterns.dir/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Timer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Timer.cpp > CMakeFiles/Patterns.dir/Timer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Timer.cpp > CMakeFiles/Patterns.dir/Timer.cpp.i
 
 CMakeFiles/Patterns.dir/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Timer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Timer.cpp -o CMakeFiles/Patterns.dir/Timer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Timer.cpp -o CMakeFiles/Patterns.dir/Timer.cpp.s
 
 CMakeFiles/Patterns.dir/Timer.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Patterns.dir/Timer.cpp.o.provides.build: CMakeFiles/Patterns.dir/Time
 
 CMakeFiles/Patterns.dir/RedBallModel.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/RedBallModel.cpp.o: ../RedBallModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Patterns.dir/RedBallModel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/RedBallModel.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/RedBallModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Patterns.dir/RedBallModel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/RedBallModel.cpp.o -c /home/belisariops/Workspace/C++/Pang/RedBallModel.cpp
 
 CMakeFiles/Patterns.dir/RedBallModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/RedBallModel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/RedBallModel.cpp > CMakeFiles/Patterns.dir/RedBallModel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/RedBallModel.cpp > CMakeFiles/Patterns.dir/RedBallModel.cpp.i
 
 CMakeFiles/Patterns.dir/RedBallModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/RedBallModel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/RedBallModel.cpp -o CMakeFiles/Patterns.dir/RedBallModel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/RedBallModel.cpp -o CMakeFiles/Patterns.dir/RedBallModel.cpp.s
 
 CMakeFiles/Patterns.dir/RedBallModel.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Patterns.dir/RedBallModel.cpp.o.provides.build: CMakeFiles/Patterns.d
 
 CMakeFiles/Patterns.dir/LTexture.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/LTexture.cpp.o: ../LTexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Patterns.dir/LTexture.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/LTexture.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/LTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Patterns.dir/LTexture.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/LTexture.cpp.o -c /home/belisariops/Workspace/C++/Pang/LTexture.cpp
 
 CMakeFiles/Patterns.dir/LTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/LTexture.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/LTexture.cpp > CMakeFiles/Patterns.dir/LTexture.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/LTexture.cpp > CMakeFiles/Patterns.dir/LTexture.cpp.i
 
 CMakeFiles/Patterns.dir/LTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/LTexture.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/LTexture.cpp -o CMakeFiles/Patterns.dir/LTexture.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/LTexture.cpp -o CMakeFiles/Patterns.dir/LTexture.cpp.s
 
 CMakeFiles/Patterns.dir/LTexture.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/Patterns.dir/LTexture.cpp.o.provides.build: CMakeFiles/Patterns.dir/L
 
 CMakeFiles/Patterns.dir/View.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/View.cpp.o: ../View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Patterns.dir/View.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/View.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Patterns.dir/View.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/View.cpp.o -c /home/belisariops/Workspace/C++/Pang/View.cpp
 
 CMakeFiles/Patterns.dir/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/View.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/View.cpp > CMakeFiles/Patterns.dir/View.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/View.cpp > CMakeFiles/Patterns.dir/View.cpp.i
 
 CMakeFiles/Patterns.dir/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/View.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/View.cpp -o CMakeFiles/Patterns.dir/View.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/View.cpp -o CMakeFiles/Patterns.dir/View.cpp.s
 
 CMakeFiles/Patterns.dir/View.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/Patterns.dir/View.cpp.o.provides.build: CMakeFiles/Patterns.dir/View.
 
 CMakeFiles/Patterns.dir/Window.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Window.cpp.o: ../Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Patterns.dir/Window.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Window.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Patterns.dir/Window.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Window.cpp.o -c /home/belisariops/Workspace/C++/Pang/Window.cpp
 
 CMakeFiles/Patterns.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Window.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Window.cpp > CMakeFiles/Patterns.dir/Window.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Window.cpp > CMakeFiles/Patterns.dir/Window.cpp.i
 
 CMakeFiles/Patterns.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Window.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Window.cpp -o CMakeFiles/Patterns.dir/Window.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Window.cpp -o CMakeFiles/Patterns.dir/Window.cpp.s
 
 CMakeFiles/Patterns.dir/Window.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/Patterns.dir/Window.cpp.o.provides.build: CMakeFiles/Patterns.dir/Win
 
 CMakeFiles/Patterns.dir/SmallBall.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/SmallBall.cpp.o: ../SmallBall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Patterns.dir/SmallBall.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/SmallBall.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/SmallBall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Patterns.dir/SmallBall.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/SmallBall.cpp.o -c /home/belisariops/Workspace/C++/Pang/SmallBall.cpp
 
 CMakeFiles/Patterns.dir/SmallBall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/SmallBall.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/SmallBall.cpp > CMakeFiles/Patterns.dir/SmallBall.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/SmallBall.cpp > CMakeFiles/Patterns.dir/SmallBall.cpp.i
 
 CMakeFiles/Patterns.dir/SmallBall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/SmallBall.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/SmallBall.cpp -o CMakeFiles/Patterns.dir/SmallBall.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/SmallBall.cpp -o CMakeFiles/Patterns.dir/SmallBall.cpp.s
 
 CMakeFiles/Patterns.dir/SmallBall.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/Patterns.dir/SmallBall.cpp.o.provides.build: CMakeFiles/Patterns.dir/
 
 CMakeFiles/Patterns.dir/BackGround.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BackGround.cpp.o: ../BackGround.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Patterns.dir/BackGround.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BackGround.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BackGround.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Patterns.dir/BackGround.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BackGround.cpp.o -c /home/belisariops/Workspace/C++/Pang/BackGround.cpp
 
 CMakeFiles/Patterns.dir/BackGround.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BackGround.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BackGround.cpp > CMakeFiles/Patterns.dir/BackGround.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BackGround.cpp > CMakeFiles/Patterns.dir/BackGround.cpp.i
 
 CMakeFiles/Patterns.dir/BackGround.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BackGround.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BackGround.cpp -o CMakeFiles/Patterns.dir/BackGround.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BackGround.cpp -o CMakeFiles/Patterns.dir/BackGround.cpp.s
 
 CMakeFiles/Patterns.dir/BackGround.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/Patterns.dir/BackGround.cpp.o.provides.build: CMakeFiles/Patterns.dir
 
 CMakeFiles/Patterns.dir/GameDriver.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/GameDriver.cpp.o: ../GameDriver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Patterns.dir/GameDriver.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/GameDriver.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/GameDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Patterns.dir/GameDriver.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/GameDriver.cpp.o -c /home/belisariops/Workspace/C++/Pang/GameDriver.cpp
 
 CMakeFiles/Patterns.dir/GameDriver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/GameDriver.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/GameDriver.cpp > CMakeFiles/Patterns.dir/GameDriver.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/GameDriver.cpp > CMakeFiles/Patterns.dir/GameDriver.cpp.i
 
 CMakeFiles/Patterns.dir/GameDriver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/GameDriver.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/GameDriver.cpp -o CMakeFiles/Patterns.dir/GameDriver.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/GameDriver.cpp -o CMakeFiles/Patterns.dir/GameDriver.cpp.s
 
 CMakeFiles/Patterns.dir/GameDriver.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/Patterns.dir/GameDriver.cpp.o.provides.build: CMakeFiles/Patterns.dir
 
 CMakeFiles/Patterns.dir/Collider.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Collider.cpp.o: ../Collider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Patterns.dir/Collider.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Collider.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Collider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Patterns.dir/Collider.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Collider.cpp.o -c /home/belisariops/Workspace/C++/Pang/Collider.cpp
 
 CMakeFiles/Patterns.dir/Collider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Collider.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Collider.cpp > CMakeFiles/Patterns.dir/Collider.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Collider.cpp > CMakeFiles/Patterns.dir/Collider.cpp.i
 
 CMakeFiles/Patterns.dir/Collider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Collider.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Collider.cpp -o CMakeFiles/Patterns.dir/Collider.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Collider.cpp -o CMakeFiles/Patterns.dir/Collider.cpp.s
 
 CMakeFiles/Patterns.dir/Collider.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/Patterns.dir/Collider.cpp.o.provides.build: CMakeFiles/Patterns.dir/C
 
 CMakeFiles/Patterns.dir/Point.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Point.cpp.o: ../Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Patterns.dir/Point.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Point.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Patterns.dir/Point.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Point.cpp.o -c /home/belisariops/Workspace/C++/Pang/Point.cpp
 
 CMakeFiles/Patterns.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Point.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Point.cpp > CMakeFiles/Patterns.dir/Point.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Point.cpp > CMakeFiles/Patterns.dir/Point.cpp.i
 
 CMakeFiles/Patterns.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Point.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Point.cpp -o CMakeFiles/Patterns.dir/Point.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Point.cpp -o CMakeFiles/Patterns.dir/Point.cpp.s
 
 CMakeFiles/Patterns.dir/Point.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/Patterns.dir/Point.cpp.o.provides.build: CMakeFiles/Patterns.dir/Poin
 
 CMakeFiles/Patterns.dir/Segment.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Segment.cpp.o: ../Segment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Patterns.dir/Segment.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Segment.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Segment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Patterns.dir/Segment.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Segment.cpp.o -c /home/belisariops/Workspace/C++/Pang/Segment.cpp
 
 CMakeFiles/Patterns.dir/Segment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Segment.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Segment.cpp > CMakeFiles/Patterns.dir/Segment.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Segment.cpp > CMakeFiles/Patterns.dir/Segment.cpp.i
 
 CMakeFiles/Patterns.dir/Segment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Segment.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Segment.cpp -o CMakeFiles/Patterns.dir/Segment.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Segment.cpp -o CMakeFiles/Patterns.dir/Segment.cpp.s
 
 CMakeFiles/Patterns.dir/Segment.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/Patterns.dir/Segment.cpp.o.provides.build: CMakeFiles/Patterns.dir/Se
 
 CMakeFiles/Patterns.dir/Vector.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Vector.cpp.o: ../Vector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Patterns.dir/Vector.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Vector.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Patterns.dir/Vector.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Vector.cpp.o -c /home/belisariops/Workspace/C++/Pang/Vector.cpp
 
 CMakeFiles/Patterns.dir/Vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Vector.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Vector.cpp > CMakeFiles/Patterns.dir/Vector.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Vector.cpp > CMakeFiles/Patterns.dir/Vector.cpp.i
 
 CMakeFiles/Patterns.dir/Vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Vector.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Vector.cpp -o CMakeFiles/Patterns.dir/Vector.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Vector.cpp -o CMakeFiles/Patterns.dir/Vector.cpp.s
 
 CMakeFiles/Patterns.dir/Vector.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/Patterns.dir/Vector.cpp.o.provides.build: CMakeFiles/Patterns.dir/Vec
 
 CMakeFiles/Patterns.dir/GroundCollider.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/GroundCollider.cpp.o: ../GroundCollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Patterns.dir/GroundCollider.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/GroundCollider.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/GroundCollider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Patterns.dir/GroundCollider.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/GroundCollider.cpp.o -c /home/belisariops/Workspace/C++/Pang/GroundCollider.cpp
 
 CMakeFiles/Patterns.dir/GroundCollider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/GroundCollider.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/GroundCollider.cpp > CMakeFiles/Patterns.dir/GroundCollider.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/GroundCollider.cpp > CMakeFiles/Patterns.dir/GroundCollider.cpp.i
 
 CMakeFiles/Patterns.dir/GroundCollider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/GroundCollider.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/GroundCollider.cpp -o CMakeFiles/Patterns.dir/GroundCollider.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/GroundCollider.cpp -o CMakeFiles/Patterns.dir/GroundCollider.cpp.s
 
 CMakeFiles/Patterns.dir/GroundCollider.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/Patterns.dir/GroundCollider.cpp.o.provides.build: CMakeFiles/Patterns
 
 CMakeFiles/Patterns.dir/WallCollider.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/WallCollider.cpp.o: ../WallCollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Patterns.dir/WallCollider.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/WallCollider.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/WallCollider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/Patterns.dir/WallCollider.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/WallCollider.cpp.o -c /home/belisariops/Workspace/C++/Pang/WallCollider.cpp
 
 CMakeFiles/Patterns.dir/WallCollider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/WallCollider.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/WallCollider.cpp > CMakeFiles/Patterns.dir/WallCollider.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/WallCollider.cpp > CMakeFiles/Patterns.dir/WallCollider.cpp.i
 
 CMakeFiles/Patterns.dir/WallCollider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/WallCollider.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/WallCollider.cpp -o CMakeFiles/Patterns.dir/WallCollider.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/WallCollider.cpp -o CMakeFiles/Patterns.dir/WallCollider.cpp.s
 
 CMakeFiles/Patterns.dir/WallCollider.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/Patterns.dir/WallCollider.cpp.o.provides.build: CMakeFiles/Patterns.d
 
 CMakeFiles/Patterns.dir/BallCollider.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BallCollider.cpp.o: ../BallCollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Patterns.dir/BallCollider.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BallCollider.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BallCollider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/Patterns.dir/BallCollider.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BallCollider.cpp.o -c /home/belisariops/Workspace/C++/Pang/BallCollider.cpp
 
 CMakeFiles/Patterns.dir/BallCollider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BallCollider.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BallCollider.cpp > CMakeFiles/Patterns.dir/BallCollider.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BallCollider.cpp > CMakeFiles/Patterns.dir/BallCollider.cpp.i
 
 CMakeFiles/Patterns.dir/BallCollider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BallCollider.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BallCollider.cpp -o CMakeFiles/Patterns.dir/BallCollider.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BallCollider.cpp -o CMakeFiles/Patterns.dir/BallCollider.cpp.s
 
 CMakeFiles/Patterns.dir/BallCollider.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/Patterns.dir/BallCollider.cpp.o.provides.build: CMakeFiles/Patterns.d
 
 CMakeFiles/Patterns.dir/BoxCollider.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BoxCollider.cpp.o: ../BoxCollider.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Patterns.dir/BoxCollider.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxCollider.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxCollider.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/Patterns.dir/BoxCollider.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxCollider.cpp.o -c /home/belisariops/Workspace/C++/Pang/BoxCollider.cpp
 
 CMakeFiles/Patterns.dir/BoxCollider.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BoxCollider.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxCollider.cpp > CMakeFiles/Patterns.dir/BoxCollider.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BoxCollider.cpp > CMakeFiles/Patterns.dir/BoxCollider.cpp.i
 
 CMakeFiles/Patterns.dir/BoxCollider.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BoxCollider.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxCollider.cpp -o CMakeFiles/Patterns.dir/BoxCollider.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BoxCollider.cpp -o CMakeFiles/Patterns.dir/BoxCollider.cpp.s
 
 CMakeFiles/Patterns.dir/BoxCollider.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/Patterns.dir/BoxCollider.cpp.o.provides.build: CMakeFiles/Patterns.di
 
 CMakeFiles/Patterns.dir/BoxVertical.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BoxVertical.cpp.o: ../BoxVertical.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Patterns.dir/BoxVertical.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxVertical.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxVertical.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/Patterns.dir/BoxVertical.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxVertical.cpp.o -c /home/belisariops/Workspace/C++/Pang/BoxVertical.cpp
 
 CMakeFiles/Patterns.dir/BoxVertical.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BoxVertical.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxVertical.cpp > CMakeFiles/Patterns.dir/BoxVertical.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BoxVertical.cpp > CMakeFiles/Patterns.dir/BoxVertical.cpp.i
 
 CMakeFiles/Patterns.dir/BoxVertical.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BoxVertical.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxVertical.cpp -o CMakeFiles/Patterns.dir/BoxVertical.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BoxVertical.cpp -o CMakeFiles/Patterns.dir/BoxVertical.cpp.s
 
 CMakeFiles/Patterns.dir/BoxVertical.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/Patterns.dir/BoxVertical.cpp.o.provides.build: CMakeFiles/Patterns.di
 
 CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o: ../BoxHorizontal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxHorizontal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o -c /home/belisariops/Workspace/C++/Pang/BoxHorizontal.cpp
 
 CMakeFiles/Patterns.dir/BoxHorizontal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BoxHorizontal.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxHorizontal.cpp > CMakeFiles/Patterns.dir/BoxHorizontal.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BoxHorizontal.cpp > CMakeFiles/Patterns.dir/BoxHorizontal.cpp.i
 
 CMakeFiles/Patterns.dir/BoxHorizontal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BoxHorizontal.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BoxHorizontal.cpp -o CMakeFiles/Patterns.dir/BoxHorizontal.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BoxHorizontal.cpp -o CMakeFiles/Patterns.dir/BoxHorizontal.cpp.s
 
 CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/Patterns.dir/BoxHorizontal.cpp.o.provides.build: CMakeFiles/Patterns.
 
 CMakeFiles/Patterns.dir/Velocity2D.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/Velocity2D.cpp.o: ../Velocity2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Patterns.dir/Velocity2D.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Velocity2D.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/Velocity2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/Patterns.dir/Velocity2D.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/Velocity2D.cpp.o -c /home/belisariops/Workspace/C++/Pang/Velocity2D.cpp
 
 CMakeFiles/Patterns.dir/Velocity2D.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/Velocity2D.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/Velocity2D.cpp > CMakeFiles/Patterns.dir/Velocity2D.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/Velocity2D.cpp > CMakeFiles/Patterns.dir/Velocity2D.cpp.i
 
 CMakeFiles/Patterns.dir/Velocity2D.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/Velocity2D.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/Velocity2D.cpp -o CMakeFiles/Patterns.dir/Velocity2D.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/Velocity2D.cpp -o CMakeFiles/Patterns.dir/Velocity2D.cpp.s
 
 CMakeFiles/Patterns.dir/Velocity2D.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/Patterns.dir/Velocity2D.cpp.o.provides.build: CMakeFiles/Patterns.dir
 
 CMakeFiles/Patterns.dir/BSPTree.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BSPTree.cpp.o: ../BSPTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Patterns.dir/BSPTree.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPTree.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/Patterns.dir/BSPTree.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPTree.cpp.o -c /home/belisariops/Workspace/C++/Pang/BSPTree.cpp
 
 CMakeFiles/Patterns.dir/BSPTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BSPTree.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPTree.cpp > CMakeFiles/Patterns.dir/BSPTree.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BSPTree.cpp > CMakeFiles/Patterns.dir/BSPTree.cpp.i
 
 CMakeFiles/Patterns.dir/BSPTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BSPTree.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPTree.cpp -o CMakeFiles/Patterns.dir/BSPTree.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BSPTree.cpp -o CMakeFiles/Patterns.dir/BSPTree.cpp.s
 
 CMakeFiles/Patterns.dir/BSPTree.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/Patterns.dir/BSPTree.cpp.o.provides.build: CMakeFiles/Patterns.dir/BS
 
 CMakeFiles/Patterns.dir/BSPNode.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BSPNode.cpp.o: ../BSPNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Patterns.dir/BSPNode.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPNode.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/Patterns.dir/BSPNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPNode.cpp.o -c /home/belisariops/Workspace/C++/Pang/BSPNode.cpp
 
 CMakeFiles/Patterns.dir/BSPNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BSPNode.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPNode.cpp > CMakeFiles/Patterns.dir/BSPNode.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BSPNode.cpp > CMakeFiles/Patterns.dir/BSPNode.cpp.i
 
 CMakeFiles/Patterns.dir/BSPNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BSPNode.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPNode.cpp -o CMakeFiles/Patterns.dir/BSPNode.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BSPNode.cpp -o CMakeFiles/Patterns.dir/BSPNode.cpp.s
 
 CMakeFiles/Patterns.dir/BSPNode.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/Patterns.dir/BSPNode.cpp.o.provides.build: CMakeFiles/Patterns.dir/BS
 
 CMakeFiles/Patterns.dir/BSPCut.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BSPCut.cpp.o: ../BSPCut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Patterns.dir/BSPCut.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPCut.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPCut.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/Patterns.dir/BSPCut.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BSPCut.cpp.o -c /home/belisariops/Workspace/C++/Pang/BSPCut.cpp
 
 CMakeFiles/Patterns.dir/BSPCut.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BSPCut.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPCut.cpp > CMakeFiles/Patterns.dir/BSPCut.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BSPCut.cpp > CMakeFiles/Patterns.dir/BSPCut.cpp.i
 
 CMakeFiles/Patterns.dir/BSPCut.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BSPCut.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BSPCut.cpp -o CMakeFiles/Patterns.dir/BSPCut.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BSPCut.cpp -o CMakeFiles/Patterns.dir/BSPCut.cpp.s
 
 CMakeFiles/Patterns.dir/BSPCut.cpp.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/Patterns.dir/BSPCut.cpp.o.provides.build: CMakeFiles/Patterns.dir/BSP
 
 CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o: ../QuadTreeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/QuadTreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o -c /home/belisariops/Workspace/C++/Pang/QuadTreeNode.cpp
 
 CMakeFiles/Patterns.dir/QuadTreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/QuadTreeNode.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/QuadTreeNode.cpp > CMakeFiles/Patterns.dir/QuadTreeNode.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/QuadTreeNode.cpp > CMakeFiles/Patterns.dir/QuadTreeNode.cpp.i
 
 CMakeFiles/Patterns.dir/QuadTreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/QuadTreeNode.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/QuadTreeNode.cpp -o CMakeFiles/Patterns.dir/QuadTreeNode.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/QuadTreeNode.cpp -o CMakeFiles/Patterns.dir/QuadTreeNode.cpp.s
 
 CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o.provides.build: CMakeFiles/Patterns.d
 
 CMakeFiles/Patterns.dir/BlueBallModel.cpp.o: CMakeFiles/Patterns.dir/flags.make
 CMakeFiles/Patterns.dir/BlueBallModel.cpp.o: ../BlueBallModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Patterns.dir/BlueBallModel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BlueBallModel.cpp.o -c /home/belisariops/WorkSpace/C++/SDL2/Pang/BlueBallModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/Patterns.dir/BlueBallModel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Patterns.dir/BlueBallModel.cpp.o -c /home/belisariops/Workspace/C++/Pang/BlueBallModel.cpp
 
 CMakeFiles/Patterns.dir/BlueBallModel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Patterns.dir/BlueBallModel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/WorkSpace/C++/SDL2/Pang/BlueBallModel.cpp > CMakeFiles/Patterns.dir/BlueBallModel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/belisariops/Workspace/C++/Pang/BlueBallModel.cpp > CMakeFiles/Patterns.dir/BlueBallModel.cpp.i
 
 CMakeFiles/Patterns.dir/BlueBallModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Patterns.dir/BlueBallModel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/WorkSpace/C++/SDL2/Pang/BlueBallModel.cpp -o CMakeFiles/Patterns.dir/BlueBallModel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/belisariops/Workspace/C++/Pang/BlueBallModel.cpp -o CMakeFiles/Patterns.dir/BlueBallModel.cpp.s
 
 CMakeFiles/Patterns.dir/BlueBallModel.cpp.o.requires:
 
@@ -819,7 +819,7 @@ Patterns: CMakeFiles/Patterns.dir/QuadTreeNode.cpp.o
 Patterns: CMakeFiles/Patterns.dir/BlueBallModel.cpp.o
 Patterns: CMakeFiles/Patterns.dir/build.make
 Patterns: CMakeFiles/Patterns.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Patterns"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX executable Patterns"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Patterns.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -864,6 +864,6 @@ CMakeFiles/Patterns.dir/clean:
 .PHONY : CMakeFiles/Patterns.dir/clean
 
 CMakeFiles/Patterns.dir/depend:
-	cd /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/belisariops/WorkSpace/C++/SDL2/Pang /home/belisariops/WorkSpace/C++/SDL2/Pang /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/CMakeFiles/Patterns.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/belisariops/Workspace/C++/Pang/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/belisariops/Workspace/C++/Pang /home/belisariops/Workspace/C++/Pang /home/belisariops/Workspace/C++/Pang/cmake-build-debug /home/belisariops/Workspace/C++/Pang/cmake-build-debug /home/belisariops/Workspace/C++/Pang/cmake-build-debug/CMakeFiles/Patterns.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Patterns.dir/depend
 

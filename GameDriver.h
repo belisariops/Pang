@@ -19,12 +19,13 @@ public:
     ~GameDriver();
     void notify();
     void spawn();
+    int getCount();
 private:
     vector<Actor*> gameObjects;
     BackGround* backGround;
     QuadTreeNode* quadTree;
     Model* model;
-
+    int count;
 };
 
 

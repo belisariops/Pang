@@ -5,41 +5,41 @@
 		<Option title="Patterns"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\usr\lib64\cmake\SDL2\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\usr\lib64\cmake\SDL2\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug"/>
+				<Option working_dir="/home/belisariops/Workspace/C++/Pang/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug"/>
+				<Option working_dir="/home/belisariops/Workspace/C++/Pang/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug"/>
+				<Option working_dir="/home/belisariops/Workspace/C++/Pang/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Patterns">
-				<Option output="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Patterns" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug"/>
+				<Option output="/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Patterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/belisariops/Workspace/C++/Pang/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Patterns"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Patterns"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Patterns/fast">
-				<Option output="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Patterns" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug"/>
+				<Option output="/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Patterns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/belisariops/Workspace/C++/Pang/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,198 +75,198 @@
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/6.3.1/../../../../include/c++/6.3.1/backward"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Patterns/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 Patterns/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/belisariops/Workspace/C++/Pang/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Actor.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Actor.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPCut.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPCut.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPCut.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPCut.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPNode.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPNode.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPNode.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPNode.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPTree.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPTree.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BSPTree.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BSPTree.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BackGround.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BackGround.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BackGround.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BackGround.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Ball.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Ball.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Ball.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Ball.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BallCollider.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BallCollider.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BallCollider.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BallCollider.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BlueBallModel.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BlueBallModel.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BlueBallModel.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BlueBallModel.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxCollider.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxCollider.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxCollider.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxCollider.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxHorizontal.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxHorizontal.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxHorizontal.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxHorizontal.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxVertical.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxVertical.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/BoxVertical.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/BoxVertical.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Collider.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Collider.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Collider.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Collider.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/GameDriver.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/GameDriver.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/GameDriver.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/GameDriver.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/GameObject.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/GameObject.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/GroundCollider.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/GroundCollider.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/GroundCollider.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/GroundCollider.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/LTexture.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/LTexture.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/LTexture.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/LTexture.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/LargeBall.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/LargeBall.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/LargeBall.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/LargeBall.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/MediumBall.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/MediumBall.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/MediumBall.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/MediumBall.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Model.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Model.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Point.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Point.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Point.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Point.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/QuadTreeNode.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/QuadTreeNode.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/QuadTreeNode.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/QuadTreeNode.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/RedBallModel.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/RedBallModel.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/RedBallModel.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/RedBallModel.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Segment.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Segment.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Segment.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Segment.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/SmallBall.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/SmallBall.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/SmallBall.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/SmallBall.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/State.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/State.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/State.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/State.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Timer.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Timer.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Timer.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Timer.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Vector.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Vector.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Vector.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Vector.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Velocity2D.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Velocity2D.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Velocity2D.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Velocity2D.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/View.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/View.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/View.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/View.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/WallCollider.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/WallCollider.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/WallCollider.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/WallCollider.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Window.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Window.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/Window.h">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/Window.h">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/main.cpp">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/main.cpp">
 			<Option target="Patterns"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/CMakeLists.txt">
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/belisariops/WorkSpace/C++/SDL2/Pang/../../../../../../usr/lib64/cmake/SDL2/sdl2-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		<Unit filename="/home/belisariops/Workspace/C++/Pang/../../../../../usr/lib64/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -1,4 +1,4 @@
-/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/belisariops/WorkSpace/C++/SDL2/Pang
+/opt/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/belisariops/Workspace/C++/Pang
 -- The C compiler identification is GNU 6.3.1
 -- The CXX compiler identification is GNU 6.3.1
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/belisariops/WorkSpace/C++/SDL2/Pang/cmake-build-debug
+-- Build files have been written to: /home/belisariops/Workspace/C++/Pang/cmake-build-debug

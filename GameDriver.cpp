@@ -36,6 +36,7 @@ GameDriver::GameDriver() {
     ball3->setState(new SmallBall(model));
     ball3->setPosition(100,100);
     gameObjects.push_back(ball3);
+    count =3;
 }
 
 GameDriver::~GameDriver() {
@@ -76,8 +77,14 @@ void GameDriver::notify() {
 
 }
 
+int GameDriver ::getCount() {
+    return count;
+}
+
 void GameDriver ::spawn() {
     Ball* ball = new Ball(model);
     ball->setState(new SmallBall(model));
+    ball->setPosition(rand()%410+15,rand()%200 +10);
     gameObjects.push_back(ball);
+    count++;
 }

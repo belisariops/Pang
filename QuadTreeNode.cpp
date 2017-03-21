@@ -145,6 +145,7 @@ void QuadTreeNode ::detectCollisions() {
 }
 
 void QuadTreeNode::tick(vector<Actor*> actors) {
+    this->deleteVector();
     for (auto object: actors) {
         this->updateActor(object);
         object->tick();
@@ -195,12 +196,19 @@ void QuadTreeNode ::removeActor(Actor *actor) {
 
 }
 
+void QuadTreeNode::deleteVector() {
+    if (subNodes != NULL) {
+        for (int i =0;i<4;i++) {
+            subNodes[i]->deleteVector();
+        }
+    }
+    objects.clear();
+}
+
 void QuadTreeNode::updateActor(Actor *actor) {
+    //this->deleteVector();
     if (subNodes !=NULL) {
         //Se remueve con la posicion previa
-        for (int i = 0; i < 4; i++) {
-            subNodes[i]->removeActor(actor);
-        }
 
         //Se agrega con su posicion actual
         for (int j = 0; j < 4; j++) {
@@ -208,6 +216,7 @@ void QuadTreeNode::updateActor(Actor *actor) {
         }
 
     }
+
 
 
 }
