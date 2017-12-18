@@ -1,9 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 project(Patterns)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -w -lSDL2 -lSDL2_image ")
-
+set (CMAKE_CXX_STANDARD 11)
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
 set(SOURCE_FILES main.cpp Ball.cpp Ball.h LargeBall.cpp LargeBall.h MediumBall.cpp MediumBall.h State.cpp State.h Timer.cpp Timer.h RedBallModel.cpp RedBallModel.h LTexture.cpp LTexture.h View.cpp View.h Window.cpp Window.h  Model.h SmallBall.cpp SmallBall.h BackGround.cpp BackGround.h GameDriver.cpp GameDriver.h GameObject.h Collider.cpp Collider.h Point.cpp Point.h Segment.cpp Segment.h Vector.cpp Vector.h GroundCollider.cpp GroundCollider.h WallCollider.cpp WallCollider.h BallCollider.cpp BallCollider.h BoxCollider.cpp BoxCollider.h BoxVertical.cpp BoxVertical.h BoxHorizontal.cpp BoxHorizontal.h Velocity2D.cpp Velocity2D.h Actor.h BSPTree.cpp BSPTree.h BSPNode.cpp BSPNode.h BSPCut.cpp BSPCut.h QuadTreeNode.cpp QuadTreeNode.h BlueBallModel.cpp BlueBallModel.h)
-find_package(SDL2)
-
 add_executable(Patterns ${SOURCE_FILES})
+set(SDL2_LIBRARIES "-L${SDL2_LIBDIR} -lSDL2 -lSDL2_image")
+target_link_libraries(Patterns ${SDL2_LIBRARIES})

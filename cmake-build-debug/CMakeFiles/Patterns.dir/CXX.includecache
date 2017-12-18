@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -401,12 +401,8 @@ iostream
 -
 SDL2/SDL.h
 -
-sstream
--
 Window.h
 /home/belisariops/Workspace/C++/Pang/Window.h
 GameDriver.h
 /home/belisariops/Workspace/C++/Pang/GameDriver.h
-Timer.h
-/home/belisariops/Workspace/C++/Pang/Timer.h
 
